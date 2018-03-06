@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons); 
+
+.gridListdemoBasicUsage md-grid-list {
+  margin: 8px;
+}
+
+.gridListdemoBasicUsage .gray {
+  background: #F3F3F3;
+}
+
+.gridListdemoBasicUsage md-grid-tile {
+  transition: all 400ms ease-out 50ms;
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.parent {
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+div.flex {
+  border: 1px solid #e7ebec;
+  text-align: center;
+  padding: 16px;
+}
+
+#flex1 {
+  border-right: none;
+}
+#flex3 {
+  border-left: none;
+}
+#flex4 {
+  border-top: none;
+  border-right: none;
+  height: 60px;
+  background-position: center center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+#flex5 {
+  border-top: none;
+  height: 60px;
+  background-position: center center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+.grey-text{
+  color: #101f78;
+}
+
+#clear-filter{
+  background-color: royalblue;
+  
+}
